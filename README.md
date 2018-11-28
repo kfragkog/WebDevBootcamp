@@ -41,6 +41,27 @@ relative path - add a link to a page that is relative to the one I am at (e.g pa
 # Intermediate HTML
 Tables - tr table row element, td element/cell inside row, th for heading in a tr OR thead and tbody
 
+Forms
+- the form tag is a container for all the inputs of a form eg the fb sign up form (all of it, so the items are submitted together): <form action = "/my-form-submitting-page" method="post"> all in puts here </form>
+action: A form is going to send data to a server somewhere and this is the URL to send form data to, method: they type of HTTP request
+- the input tag is what goes inside of our forms, and has the type attribute that we can create the different types
+- button can be added with an input type submit or a button tag
+- placeholder attribute is adding the temp text in a field so a user knows what to fill it in with
+- name attribute in input tags is to give name to data so we can pass the value from the form and retrieve it later or send it to where the form sends the data to - if the same name is given, then the two things are connected
+- labels are really important, as they let us add captions in a form; screenreading software will use those for ppls that need accessibility tools etc
+when labels are used, the input tag goes in the label, and after the text we want the label to show OR use the same id/name in the for attribute for the label and the id for the input
+- Validations to enforce rules and structure to the fields in a form (in an input) - two main things we can do with HTML, required fields (called: presence validation and we do we required) and validate the type of data that the user puts in a field eg an email does look like an email and we do with changing the type to email (for this example)
+- further inputs.. Radio buttons/checkboxes, select tags (dropdown menus), textarea tag
+- to tell hmtl that two radio buttons are linked we use the name attribute - we give them the same name
+- to submit a form we can use either input type submit or the button tag but it needs to be the last line in the form
+- value gives the name attribute an actual value to pass on so we know what was chosen by the user
+- for dropdowns, use select tag and option tag in it (name and value can again be used to track data)
+- textarea is like text, but for multiple lines - it's a tag 
+
+
+
+
+
 
 
 
