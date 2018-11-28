@@ -29,8 +29,18 @@ Ordered list has numbers, unordered has bullet points
 div - way of grouping things together (like a generic container) - block level element
 span - generic container, but inline
 
+attributes - add additional info to html elements - key value pair (link html attributes in MDN) - <tag attributename = "value"></tag>
 
-# Intermediate HTML 5
+src & href - two important attributes
+
+a (anchor) tag is how we create links to other webpages - href is the url and between > and </a> we put the text for the link
+
+relative path - add a link to a page that is relative to the one I am at (e.g page 2.html)
+
+
+# Intermediate HTML
+Tables - tr table row element, td element/cell inside row, th for heading in a tr OR thead and tbody
+
 
 
 
