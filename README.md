@@ -37,7 +37,6 @@ a (anchor) tag is how we create links to other webpages - href is the url and be
 
 relative path - add a link to a page that is relative to the one I am at (e.g page 2.html)
 
-
 # Intermediate HTML
 Tables - tr table row element, td element/cell inside row, th for heading in a tr OR thead and tbody
 
@@ -56,7 +55,19 @@ when labels are used, the input tag goes in the label, and after the text we wan
 - to submit a form we can use either input type submit or the button tag but it needs to be the last line in the form
 - value gives the name attribute an actual value to pass on so we know what was chosen by the user
 - for dropdowns, use select tag and option tag in it (name and value can again be used to track data)
-- textarea is like text, but for multiple lines - it's a tag 
+- textarea is like text, but for multiple lines - it's a tag
+- to group things we can put them in p or div (for blocks)
+
+# Introduction to CSS 6
+- Stands for Cascading Style Sheets
+- Seperate documents that we then include in our html file
+- the General CSS rule:
+  <!-- selector is where we reference existing html elements -->
+  selector {
+    <!-- and then we apply some style to it -->
+    property: value;
+    anotherProperty: value;
+  }
 
 
 
@@ -68,5 +79,12 @@ when labels are used, the input tag goes in the label, and after the text we wan
 
 
 
- - Introduction to CSS 6 - Intermediate CSS 7 - Bootstrap 8 - Introduction to JavaScript 9 - Javascript Basics: Control Flow 10 - Javascript Basics: Functions 11 - Javascript Basics: Arrays 12 - Javascript Basics: Objects 13 - DOM Manipulation 14 - Advanced DOM Manipulation 15 - Color Game Project 16 - Intro to jQuery 17 - Advanced jQuery 18 - Todo List Projects 19 - OPTIONAL Project: Patatap Clone 20 - Backend Basics 21 - The Command Line 22 - Node JS 23 - Server Side Frameworks 24 - Intermediate Express 25 - Working With API's 26 - YelpCamp: Basics 27 - Databases 28 - YelpCamp: Data Persistence 29 - RESTful Routing 30 - Data Associations 31 - YelpCamp: Comments 32 - Authentication 33 - YelpCamp: Adding Authentication 34 - YelpCamp: Cleaning Up 35 - YelpCamp: Update and Destroy 36 - YelpCamp: UI Improvements
+
+
+
+
+
+
+
+ - Intermediate CSS 7 - Bootstrap 8 - Introduction to JavaScript 9 - Javascript Basics: Control Flow 10 - Javascript Basics: Functions 11 - Javascript Basics: Arrays 12 - Javascript Basics: Objects 13 - DOM Manipulation 14 - Advanced DOM Manipulation 15 - Color Game Project 16 - Intro to jQuery 17 - Advanced jQuery 18 - Todo List Projects 19 - OPTIONAL Project: Patatap Clone 20 - Backend Basics 21 - The Command Line 22 - Node JS 23 - Server Side Frameworks 24 - Intermediate Express 25 - Working With API's 26 - YelpCamp: Basics 27 - Databases 28 - YelpCamp: Data Persistence 29 - RESTful Routing 30 - Data Associations 31 - YelpCamp: Comments 32 - Authentication 33 - YelpCamp: Adding Authentication 34 - YelpCamp: Cleaning Up 35 - YelpCamp: Update and Destroy 36 - YelpCamp: UI Improvements
 37 - Git and Github 38 - Deploying 39 - JavaScript: The Tricky Stuff

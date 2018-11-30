@@ -31,31 +31,39 @@
         <label for="email">Email:</label>
         <input type="email" id="email" name="" value="" placeholder="your email" required>
         <label for="password">Password:</label>
-        <input type="password" id="password" name="" placeholder="your password" maxlength="10" minlength="5" value="">
+        <input type="password" id="password" name="" placeholder="your password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters" value="">
       </p>
 
-      <p>
+      <div>
         <label for="birthday">Birthday:</label>
-        <select class="" name="BMonth">
+        <select class="" name="BMonth" id="birthday">
+            <option value=>Month</option>
             <option value="1">Jan</option>
             <option value="2">Feb</option>
             <option value="3">Mar</option>
         </select>
         <select class="" name="BDay">
+            <option value=>Day</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
         </select>
         <select class="" name="BYear">
+            <option value=>Year</option>
             <option value="1989">1989</option>
             <option value="1990">1990</option>
             <option value="1991">1991</option>
         </select>
-      </p>
-
+      </div>
+      <br>
       <!-- he didnt say the checkbox's required.. but how can it not be?! -->
 
-      <p>I agree to the terms and conditions <input type="checkbox" name="" value="" required></p>
+      <div class="">
+        <label for="checkbox">I agree to the terms and conditions</label>
+        <input type="checkbox" name="" value="" required>
+      </div>
+
+
 
       <button>Submit</button>
 
