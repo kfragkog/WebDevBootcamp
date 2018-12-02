@@ -1,0 +1,12 @@
+li{
+   border: 2px solid black
+}
+
+#veryImportant{
+  background: green;
+}
+
+.Others{
+  background: pink;
+  text-decoration: line-through;
+}

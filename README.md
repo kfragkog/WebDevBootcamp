@@ -64,12 +64,31 @@ when labels are used, the input tag goes in the label, and after the text we wan
 - the General CSS rule:
   <!-- selector is where we reference existing html elements -->
   selector {
-    <!-- and then we apply some style to it -->
+    <!-- and then we apply some style to it -->  
     property: value;
     anotherProperty: value;
   }
-
-
+- we want our html and css (structure & style) to be separate
+- we connect the css file with a link element and the href attribute (type needs to be there as well, text/css)
+- Colours: Hexadecimal eg black #000000 first 2 correspond to how much red, next how much green, next how much blue OR RGB, ranges from 0-255 rgb(0, 255, 0) OR RGBA with transparency (0.0-1.0)
+- background can be color or image (url())
+- for boarder we need color, width, style
+- CSS basic selectors: Element, ID, Class
+  - Element selector is h1, div etc
+  - ID selector when we want to single out one instance of a wider group - id="anynameIwant" and then #anynameIwant as a selector in CSS (hook) - ids need to be unique, we can have multiple but each can appear just once
+  - Class is like the id but can be applied to multiple elements .anynameIwantclass
+  - Text decoration to add strikethroughs, underlines etc
+  - checked makes a checkbox checked by default
+- CSS advanced selectors:
+  - Star (applies something on everything in a page),
+  - Descendant Selector (groups tags together that are nested in the same way in the page ie give me all anchors in lists -> li a),
+  - Adjacent Selector (select elements that come after another element eg all uls that come after h4s - h4s and uls are equals),
+  - Attribute Selector (select elements based on any attribute)
+  - nth of type (select the nth of something eg 3rd ul) or an even number (even in the ())
+- Inheritance & Specificity
+  - inheritance is ul being coloured cause a style has been applied to body, and specificity applying that style that is the most specific to an element
+  - in the console, we can see the style that is not applied to be crossed out
+  - specificity order: inline, id, classes/attributes, elements
 
 
 

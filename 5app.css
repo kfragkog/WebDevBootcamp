@@ -1,0 +1,25 @@
+h1{
+  color:#328F34;
+/* border options */
+  /* border-color: black;
+  border-width: 5px;
+  border-style: solid; */
+/* or */
+border: 1px solid black;
+}
+
+h4{
+  color:green;
+  background: rgba(255, 0, 0, 0.5);
+}
+
+li{
+  color:rgba(240, 40, 50, 0.8);
+}
+
+body{
+  background: pink;
+  /* background: URL(https://cdn.guidingtech.com/media/assets/WordPress-Import/2017/05/IMG-8.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
