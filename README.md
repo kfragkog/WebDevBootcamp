@@ -58,7 +58,7 @@ when labels are used, the input tag goes in the label, and after the text we wan
 - textarea is like text, but for multiple lines - it's a tag
 - to group things we can put them in p or div (for blocks)
 
-# Introduction to CSS 6
+# Introduction to CSS6
 - Stands for Cascading Style Sheets
 - Seperate documents that we then include in our html file
 - the General CSS rule:
@@ -90,6 +90,10 @@ when labels are used, the input tag goes in the label, and after the text we wan
   - in the console, we can see the style that is not applied to be crossed out
   - specificity order: inline, id, classes/attributes, elements
 
+# Intermediate CSS7
+- For default fonts, we can use css to define the font-family for an element
+- font size can be in px or em: which is a relative font size, em is equal to the size of the parent of the font that applies to the element in question eg 2.0em would make the element double the size of the parent (enclosing) element - it's best to set a value for the body, even if it's not used, so then all ems are relative to that and we control it fully
+- remember: to visualise changes we can make them in the console and try out how they look
 
 
 
@@ -100,10 +104,5 @@ when labels are used, the input tag goes in the label, and after the text we wan
 
 
 
-
-
-
-
-
- - Intermediate CSS 7 - Bootstrap 8 - Introduction to JavaScript 9 - Javascript Basics: Control Flow 10 - Javascript Basics: Functions 11 - Javascript Basics: Arrays 12 - Javascript Basics: Objects 13 - DOM Manipulation 14 - Advanced DOM Manipulation 15 - Color Game Project 16 - Intro to jQuery 17 - Advanced jQuery 18 - Todo List Projects 19 - OPTIONAL Project: Patatap Clone 20 - Backend Basics 21 - The Command Line 22 - Node JS 23 - Server Side Frameworks 24 - Intermediate Express 25 - Working With API's 26 - YelpCamp: Basics 27 - Databases 28 - YelpCamp: Data Persistence 29 - RESTful Routing 30 - Data Associations 31 - YelpCamp: Comments 32 - Authentication 33 - YelpCamp: Adding Authentication 34 - YelpCamp: Cleaning Up 35 - YelpCamp: Update and Destroy 36 - YelpCamp: UI Improvements
+ - Bootstrap 8 - Introduction to JavaScript 9 - Javascript Basics: Control Flow 10 - Javascript Basics: Functions 11 - Javascript Basics: Arrays 12 - Javascript Basics: Objects 13 - DOM Manipulation 14 - Advanced DOM Manipulation 15 - Color Game Project 16 - Intro to jQuery 17 - Advanced jQuery 18 - Todo List Projects 19 - OPTIONAL Project: Patatap Clone 20 - Backend Basics 21 - The Command Line 22 - Node JS 23 - Server Side Frameworks 24 - Intermediate Express 25 - Working With API's 26 - YelpCamp: Basics 27 - Databases 28 - YelpCamp: Data Persistence 29 - RESTful Routing 30 - Data Associations 31 - YelpCamp: Comments 32 - Authentication 33 - YelpCamp: Adding Authentication 34 - YelpCamp: Cleaning Up 35 - YelpCamp: Update and Destroy 36 - YelpCamp: UI Improvements
 37 - Git and Github 38 - Deploying 39 - JavaScript: The Tricky Stuff
