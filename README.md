@@ -92,9 +92,11 @@ when labels are used, the input tag goes in the label, and after the text we wan
 
 # Intermediate CSS7
 - For default fonts, we can use css to define the font-family for an element
-- font size can be in px or em: which is a relative font size, em is equal to the size of the parent of the font that applies to the element in question eg 2.0em would make the element double the size of the parent (enclosing) element - it's best to set a value for the body, even if it's not used, so then all ems are relative to that and we control it fully
+  - font size can be in px or em: which is a relative font size, em is equal to the size of the parent of the font that applies to the element in question eg 2.0em would make the element double the size of the parent (enclosing) element - it's best to set a value for the body, even if it's not used, so then all ems are relative to that and we control it fully
+  - google fonts, just put link in html head
 - remember: to visualise changes we can make them in the console and try out how they look
-
+- The Box Model: every element is represented as a rectangular box; each box has four edges: the margin edge, border edge, padding edge and content edge
+    - to define width we can use px or %; if we say 50%, then p is 50% width of its parent element (in this case the body)
 
 
 
