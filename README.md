@@ -97,6 +97,8 @@ when labels are used, the input tag goes in the label, and after the text we wan
 - remember: to visualise changes we can make them in the console and try out how they look
 - The Box Model: every element is represented as a rectangular box; each box has four edges: the margin edge, border edge, padding edge and content edge
     - to define width we can use px or %; if we say 50%, then p is 50% width of its parent element (in this case the body)
+- float property to position elements left or right in their container
+- we used float to remove the default white margin that html adds to an image
 
 
 

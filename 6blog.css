@@ -1,0 +1,28 @@
+h1{
+  color: blue;
+  margin: 20px 20px;
+}
+
+h2{
+  color: lightblue;
+  margin: 20px 20px;
+}
+
+#special{
+  border-top: solid #f1f1f1 2px;
+  padding-top: 20px;
+}
+
+body{
+  border: 20px grey solid;
+  margin: 10px 20%;
+}
+
+p{
+  margin: 10px 20px;
+}
+
+.bacon{
+  border-left: 4px solid grey;
+  padding-left: 3px;
+}
