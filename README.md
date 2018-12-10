@@ -99,6 +99,11 @@ when labels are used, the input tag goes in the label, and after the text we wan
     - to define width we can use px or %; if we say 50%, then p is 50% width of its parent element (in this case the body)
 - float property to position elements left or right in their container
 - we used float to remove the default white margin that html adds to an image
+- rem is similar to em but relates always to the route element of the page - no need to worry of what's nested inside of what
+- hr adds a line in
+
+# Bootstrap (3)
+- It's a single file of css and single file of js to easily create responsive web sites - main features are nav bar, grid system and overall responsiveness
 
 
 
@@ -108,5 +113,15 @@ when labels are used, the input tag goes in the label, and after the text we wan
 
 
 
- - Bootstrap 8 - Introduction to JavaScript 9 - Javascript Basics: Control Flow 10 - Javascript Basics: Functions 11 - Javascript Basics: Arrays 12 - Javascript Basics: Objects 13 - DOM Manipulation 14 - Advanced DOM Manipulation 15 - Color Game Project 16 - Intro to jQuery 17 - Advanced jQuery 18 - Todo List Projects 19 - OPTIONAL Project: Patatap Clone 20 - Backend Basics 21 - The Command Line 22 - Node JS 23 - Server Side Frameworks 24 - Intermediate Express 25 - Working With API's 26 - YelpCamp: Basics 27 - Databases 28 - YelpCamp: Data Persistence 29 - RESTful Routing 30 - Data Associations 31 - YelpCamp: Comments 32 - Authentication 33 - YelpCamp: Adding Authentication 34 - YelpCamp: Cleaning Up 35 - YelpCamp: Update and Destroy 36 - YelpCamp: UI Improvements
+
+
+
+
+
+
+
+
+
+
+ - Introduction to JavaScript 9 - Javascript Basics: Control Flow 10 - Javascript Basics: Functions 11 - Javascript Basics: Arrays 12 - Javascript Basics: Objects 13 - DOM Manipulation 14 - Advanced DOM Manipulation 15 - Color Game Project 16 - Intro to jQuery 17 - Advanced jQuery 18 - Todo List Projects 19 - OPTIONAL Project: Patatap Clone 20 - Backend Basics 21 - The Command Line 22 - Node JS 23 - Server Side Frameworks 24 - Intermediate Express 25 - Working With API's 26 - YelpCamp: Basics 27 - Databases 28 - YelpCamp: Data Persistence 29 - RESTful Routing 30 - Data Associations 31 - YelpCamp: Comments 32 - Authentication 33 - YelpCamp: Adding Authentication 34 - YelpCamp: Cleaning Up 35 - YelpCamp: Update and Destroy 36 - YelpCamp: UI Improvements
 37 - Git and Github 38 - Deploying 39 - JavaScript: The Tricky Stuff
