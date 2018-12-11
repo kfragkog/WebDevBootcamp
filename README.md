@@ -33,7 +33,7 @@ attributes - add additional info to html elements - key value pair (link html at
 
 src & href - two important attributes
 
-a (anchor) tag is how we create links to other webpages - href is the url and between > and </a> we put the text for the link
+a (anchor) tag is how we create links to other webpages or internal ones - href is the url and between > and </a> we put the text for the link - for internal link use # and the id of the element we want to link to
 
 relative path - add a link to a page that is relative to the one I am at (e.g page 2.html)
 
@@ -104,6 +104,7 @@ when labels are used, the input tag goes in the label, and after the text we wan
 
 # Bootstrap (3)
 - It's a single file of css and single file of js to easily create responsive web sites - main features are nav bar, grid system and overall responsiveness
+- to override bootstrap, we can apply our own css to its classes/attributes etc eg btn-dan
 
 
 
