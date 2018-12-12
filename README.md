@@ -44,7 +44,7 @@ Forms
 - the form tag is a container for all the inputs of a form eg the fb sign up form (all of it, so the items are submitted together): <form action = "/my-form-submitting-page" method="post"> all in puts here </form>
 action: A form is going to send data to a server somewhere and this is the URL to send form data to, method: they type of HTTP request
 - the input tag is what goes inside of our forms, and has the type attribute that we can create the different types
-- button can be added with an input type submit or a button tag
+- button can be added with an input type button (text goes to the name attribute) or a button tag
 - placeholder attribute is adding the temp text in a field so a user knows what to fill it in with
 - name attribute in input tags is to give name to data so we can pass the value from the form and retrieve it later or send it to where the form sends the data to - if the same name is given, then the two things are connected
 - labels are really important, as they let us add captions in a form; screenreading software will use those for ppls that need accessibility tools etc
