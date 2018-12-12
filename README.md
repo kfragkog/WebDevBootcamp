@@ -93,6 +93,7 @@ when labels are used, the input tag goes in the label, and after the text we wan
 # Intermediate CSS7
 - For default fonts, we can use css to define the font-family for an element
   - font size can be in px or em: which is a relative font size, em is equal to the size of the parent of the font that applies to the element in question eg 2.0em would make the element double the size of the parent (enclosing) element - it's best to set a value for the body, even if it's not used, so then all ems are relative to that and we control it fully
+  - when applying a default font, you can tell the browser to dregrade to another when the first one is not available
   - google fonts, just put link in html head
 - remember: to visualise changes we can make them in the console and try out how they look
 - The Box Model: every element is represented as a rectangular box; each box has four edges: the margin edge, border edge, padding edge and content edge
@@ -101,6 +102,15 @@ when labels are used, the input tag goes in the label, and after the text we wan
 - we used float to remove the default white margin that html adds to an image
 - rem is similar to em but relates always to the route element of the page - no need to worry of what's nested inside of what
 - hr adds a line in
+- when we absolutely need to be sure that an element has specific CSS, you can use !important eg .pink-text {color: pink !important;}
+- var are declared in css and given a value - then can be used throughout the document to apply that value to properties
+  - vars are usually created within the root element, so they can cascade to the whole doc
+  - to override them in a specific element, we can declare them again in that element with a new value
+- box-shadow property applies shadows to elements
+- opacity property defines the transparency of an element (1 no transparent, 0 fully transparent)
+- text-transform to change the appearance of a text (Uppercase, capitalised etc)
+- line-height defines the line height lololol
+- a:hover property changes the hover state of an anchor tag
 
 # Bootstrap (3)
 - It's a single file of css and single file of js to easily create responsive web sites - main features are nav bar, grid system and overall responsiveness
