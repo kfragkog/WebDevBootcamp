@@ -44,7 +44,7 @@ Forms
 - the form tag is a container for all the inputs of a form eg the fb sign up form (all of it, so the items are submitted together): <form action = "/my-form-submitting-page" method="post"> all in puts here </form>
 action: A form is going to send data to a server somewhere and this is the URL to send form data to, method: they type of HTTP request
 - the input tag is what goes inside of our forms, and has the type attribute that we can create the different types
-- button can be added with an input type button (text goes to the name attribute) or a button tag
+- button can be added with an input type submit (text goes to the value attribute) or a button tag
 - placeholder attribute is adding the temp text in a field so a user knows what to fill it in with
 - name attribute in input tags is to give name to data so we can pass the value from the form and retrieve it later or send it to where the form sends the data to - if the same name is given, then the two things are connected
 - labels are really important, as they let us add captions in a form; screenreading software will use those for ppls that need accessibility tools etc
@@ -98,7 +98,7 @@ when labels are used, the input tag goes in the label, and after the text we wan
 - remember: to visualise changes we can make them in the console and try out how they look
 - The Box Model: every element is represented as a rectangular box; each box has four edges: the margin edge, border edge, padding edge and content edge
     - to define width we can use px or %; if we say 50%, then p is 50% width of its parent element (in this case the body)
-- float property to position elements left or right in their container
+- float property to position elements left or right in their container - usually used with width to specify how much width the element that has been floated needs
 - we used float to remove the default white margin that html adds to an image
 - rem is similar to em but relates always to the route element of the page - no need to worry of what's nested inside of what
 - hr adds a line in
@@ -111,6 +111,11 @@ when labels are used, the input tag goes in the label, and after the text we wan
 - text-transform to change the appearance of a text (Uppercase, capitalised etc)
 - line-height defines the line height lololol
 - a:hover property changes the hover state of an anchor tag
+- position: relative moves something away from the normal flow to the specified size and direction eg bottom:10px would move something away from the bottom by 10px
+- position: absolute or fix - main difference is that fix wont move the element when user scrolls
+- z-index property specifies the order elements are stacked on top of one another - takes int
+
+
 
 # Bootstrap (3)
 - It's a single file of css and single file of js to easily create responsive web sites - main features are nav bar, grid system and overall responsiveness
