@@ -109,11 +109,20 @@ when labels are used, the input tag goes in the label, and after the text we wan
 - box-shadow property applies shadows to elements
 - opacity property defines the transparency of an element (1 no transparent, 0 fully transparent)
 - text-transform to change the appearance of a text (Uppercase, capitalised etc)
-- line-height defines the line height lololol
+- line-height defines the line height
 - a:hover property changes the hover state of an anchor tag
 - position: relative moves something away from the normal flow to the specified size and direction eg bottom:10px would move something away from the bottom by 10px
 - position: absolute or fix - main difference is that fix wont move the element when user scrolls
 - z-index property specifies the order elements are stacked on top of one another - takes int
+- background function linear-gradient gives color transitions
+- set background to an image with url() background function
+- transform property with scale() function scles an element eg scale(2) will double the size
+- The transform property has a variety of functions that lets you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as :hover that specify a certain state of an element, the transform property can easily add interactivity to your elements.
+- transform with skewX() to skew an elements
+
+
+
+
 
 
 
